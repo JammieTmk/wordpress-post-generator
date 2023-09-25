@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+div{
+    padding: 20px;
+    border: #ccc;
+/*     width: 400px;
+    height: 100px; */
+}
+
+#post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+.post {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+.post h2 {
+    margin-top: 0;
+  }
+
+@media (max-width: 768px) {
+    .post {
+      width: 100%;
+    }
+  }
